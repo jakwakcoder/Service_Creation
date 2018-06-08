@@ -23,7 +23,7 @@ public class Client {
 
 	private String name;
 	
-	//@JsonIgnore
+	@JsonIgnore
 	private String password;
 	
 	@Temporal(TemporalType.DATE)

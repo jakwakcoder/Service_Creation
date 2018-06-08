@@ -21,7 +21,7 @@ public class Address{
 	private String city;
 	private String state;
 
-	//@JsonIgnore
+	@JsonIgnore
 	@OneToMany
 	private List<Client> residents;
 
